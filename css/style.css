@@ -1,0 +1,114 @@
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style:none;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+#blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:40px;
+  border-bottom: 1px solid solid rgba(0,0,0,0.05);
+  background-color: goldenrod;
+}
+.blog.heading{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.blog-heading span{
+  color: blue;
+}
+.blog-heading h3{
+  font-size: 2.4rem;
+  color: #2b2b2b;
+  font-weight: 600;
+  text-align: center;
+}
+.blog-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #2b2b2b; 
+}
+.blog-box{
+width:350px;
+background-color: white;
+border: 1px solid gray;
+margin:20px;
+}
+.blog-box3 {
+  width: 350px;
+  background-color: white;
+  border: 1px solid gray;
+  margin: 20px;
+}
+.blog-img{
+ width: 100%;
+  height: auto;
+  object-fit: cover ;
+  object-position: center;
+}
+.blog-img img{
+  width:100%;
+  height:auto;
+  object-fit: cover;
+  object-position: center;
+}
+.homies {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin:0px
+}
+.blog-text{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-text span{
+  color: red;
+  font-size:0.9rem;
+}
+.blog-text blog-title{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+}
+.blog-text .blog-title:hover{
+  color: red;
+  transition:  all ease 0.3s;
+}
+.blog-text p{
+  color: chocolate;
+  font-size: 0.9rem;
+  -webkit-line-clamp:9;
+  -webkit-box-orient: vertical;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  margin: 20px 0px;
+}
+.blog-text a{
+  color: black;
+}
+.blog-text a:hover{
+  color: chocolate;
+  transition: all ease 0.3s;
+}
